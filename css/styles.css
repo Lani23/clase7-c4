@@ -6,77 +6,77 @@
 }
 
 .caja {/*Diseño de las cajas*/
-    width: 300px;
-    height: 500px;
-    border: 1px solid #ddd;
-    padding: 10px; 
     background-color: #DCDCDC;
-    text-align: center;
+    border: 1px solid #ddd;
+    height: 500px;
+    padding: 10px; 
     position: relative;
+    text-align: center;
+    width: 300px;
 }
 
-.container {
-    display: flex;
+.container {/*Contenedor de las cajas*/
     align-items: flex-end;
+    display: flex;
     gap: 20px;
 }
 
-.descuento{
-    font-size: small;
+.descuento{/*Diseño del título de descuento*/
     background-color: #2ED8BC;
-    padding: 5px 0;
     color: #0D1606;
+    font-size: small;
     margin-bottom: 0;
+    padding: 5px 0;
 }
 
-footer {
+footer {/*Diseño del footer*/
     background-color: #444EBB;
     padding: 5px;
 }
 
 footer span{
-    font-size: large;
     color: #FFFFFF;
+    font-size: large;
     margin-right: 10px;
 }
 
-h1{
+h1{/*Diseño del título principal*/
     background-color: #444EBB;
     color: #0D1606;
     font-family: Arial, sans-serif;
-    padding: 20px 0;
-    margin-top: 0;
-    width: 100%;
-    position: fixed;
     font-size: large;
+    margin-top: 0;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
 }
 
 .imagen-superior {/*Diseño imagenes superiores de las cajas*/
-    width: 300px;
     height: 150px;
+    width: 300px;
 }
 
 .imagen-perfil {/*Diseño imagenes de perfil de las cajas*/
-    width: 95px;
-    height: 100px;
-    border-radius: 50%;
     background-color: white;
+    border-radius: 50%;
+    height: 100px;
+    left: 120px;
     position: absolute;
     top: 125px;
-    left: 120px;
+    width: 95px;
 }
 
 main {
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    background-color: #f1f1f1;
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin: 0;
     min-height: 90vh;
-    background-color: #f1f1f1;
+    padding: 0;
 }
 
-.names{
+.names{ /*Diseño de los nombres de los personajes*/
     margin-top: 90px;
 }
 
