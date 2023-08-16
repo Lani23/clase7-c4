@@ -51,6 +51,12 @@ h1{/*Diseño del título principal*/
     width: 100%;
 }
 
+.icono-corazon {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
 .imagen-superior {/*Diseño imagenes superiores de las cajas*/
     height: 150px;
     width: 300px;
