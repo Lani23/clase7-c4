@@ -8,17 +8,18 @@
 .caja {/*Diseño de las cajas*/
     background-color: #DCDCDC;
     border: 1px solid #ddd;
-    height: 500px;
     padding: 10px; 
-    position: relative;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     width: 300px;
 }
 
 .container {/*Contenedor de las cajas*/
-    align-items: flex-end;
     display: flex;
+    justify-content: space-between; /* Distribuir las cajas de manera uniforme */
+    align-items: flex-end;
     gap: 20px;
+    margin-top: 50px;
 }
 
 .descuento{/*Diseño del título de descuento*/
@@ -27,11 +28,14 @@
     font-size: small;
     margin-bottom: 0;
     padding: 5px 0;
+    display: flex;
+    justify-content: flex-start;
 }
 
 footer {/*Diseño del footer*/
     background-color: #444EBB;
     padding: 5px;
+    text-align: center;
 }
 
 footer span{
@@ -53,8 +57,7 @@ h1{/*Diseño del título principal*/
 
 .icono-corazon {
     position: absolute;
-    top: 20px;
-    left: 15px;
+    justify-content: flex-start;
 }
 
 .imagen-superior {/*Diseño imagenes superiores de las cajas*/
@@ -66,10 +69,9 @@ h1{/*Diseño del título principal*/
     background-color: white;
     border-radius: 50%;
     height: 100px;
-    left: 120px;
-    position: absolute;
-    top: 125px;
     width: 95px;
+    align-self: center; /* Alinear la imagen de perfil en el centro vertical */
+    margin-top: -50px; 
 }
 
 main {
@@ -83,7 +85,11 @@ main {
 }
 
 .names{ /*Diseño de los nombres de los personajes*/
-    margin-top: 90px;
+    margin-top: 20px;
+}
+
+article {
+    text-align: center;
 }
 
 
